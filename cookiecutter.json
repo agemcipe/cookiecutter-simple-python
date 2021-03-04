@@ -1,0 +1,9 @@
+{
+    "project_name": "simple_python_project",
+    "package_name": "{{cookiecutter.project_name.replace('-', '_')}}",
+    "description": "",
+    "full_name": "Jonathan Haas",
+    "email": "jonathan.haas.ger@gmail.com",
+    "github_user": "agemcipe",
+    "version": "0.1"
+}

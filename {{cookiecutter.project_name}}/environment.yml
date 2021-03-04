@@ -1,0 +1,13 @@
+name: {{cookiecutter.project_name}}
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - ipython
+  - jupyter
+  - numpy
+  - pandas
+  - pip
+  - pre-commit
+  - pytest
