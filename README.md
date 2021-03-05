@@ -1,2 +1,8 @@
 # cookiecutter-simple-python
-A cookiecutter template for a simple python project
+
+[Cookiecutter](https://github.com/cookiecutter/cookiecutter) template for a simple python package
+
+## Usage
+```[bash]
+$ cookiecutter gh:agemcipe/cookiecutter-simple-python
+```
