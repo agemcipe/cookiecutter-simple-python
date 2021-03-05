@@ -9,7 +9,16 @@ if "{{cookiecutter.create_remote}}" == "yes":
     subprocess.call(["git", "add", "."])
     subprocess.call(["git", "commit", "-m", "Initial commit"])
 
-    subprocess.call(["gh", "repo", "create"])
-
+    subprocess.call(
+        [
+            "gh",
+            "repo",
+            "create",
+            "{{cookiecutter.github_user}}/{{cookiecutter.project_name}}",
+            "--description",
+            "{{cookiecutter.description}}",
+            "--confirm",  # skip confirmation
+        ]
+    )
     subprocess.call(["git", "remote", "-v"])
     subprocess.call(["git", "push", "--set-upstream", "origin", "main"])
