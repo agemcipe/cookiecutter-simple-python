@@ -11,11 +11,12 @@ if "{{cookiecutter.create_remote}}" == "yes":
     
     if git_version_str <= "git version 2.28.0":
         print(f"You need git version > 2.28.0 . Current: {git_version_str} . Update git to use create remote.")
-        return 1 
+        exit(1)
     
     subprocess.call(
         ["git", "init", "-b", "main"]
-    )      subprocess.call(["git", "add", "."])
+    )      
+    subprocess.call(["git", "add", "."])
     subprocess.call(["git", "commit", "-m", "Initial commit"])
 
     subprocess.call(
