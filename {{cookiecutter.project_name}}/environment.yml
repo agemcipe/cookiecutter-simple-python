@@ -4,10 +4,6 @@ channels:
   - defaults
 dependencies:
   - python
-  - ipython
-  - jupyter
-  - numpy
-  - pandas
   - pip
-  - pre-commit
-  - pytest
+  - pip:
+    - -r requirements.txt
