@@ -5,7 +5,9 @@
 ## Features
 
 - **Pytest:** Comes pre-configured with Pytest for easy and effective testing.
-  
+
+- **Formatting:** Formatting using `black`, `flake8`, and `mypy` instaled as `pre-commit` hooks
+
 - **GitHub Actions:** CI/CD pipelines are set up using GitHub Actions to automate testing and deployment workflows.
 
 - **Pip Installable:** Easily install your Python package using pip for seamless integration.
