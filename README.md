@@ -1,6 +1,6 @@
 # cookiecutter-simple-python
 
-[Cookiecutter](https://github.com/cookiecutter/cookiecutter) template for a simple Python package.
+[Cookiecutter](https://github.com/cookiecutter/cookiecutter) template for a simple pip installable Python package with Github actions enabled.
 
 ## Features
 
